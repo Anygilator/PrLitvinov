@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500"  Width="800">
+    <StackPanel>
+        <Image Source="C:\Users\student\Desktop\WpfApp1\Pic\elephant.jpg" Width="300" Height="300" Name="PicOutput1"/>
+        <Image Source="C:\Users\student\Desktop\WpfApp1\Pic\giraffe.jpg" Width="300" Height="300" Name="PicOutput2" Visibility="Collapsed"/>
+        <Image Source="C:\Users\student\Desktop\WpfApp1\Pic\tiger.jpg" Width="300" Height="300" Name="PicOutput3" Visibility="Collapsed"/>
+        <TextBlock x:Name="TextOutput" Height="Auto" Text="Слоны — самые крупные наземные животные на Земле. Обитают они в Юго-Восточной Азии и Африке в тропических лесах и саваннах. Самыми крупными являются африканские саванные слоны, их масса может превышать 6 тонн." TextWrapping="Wrap"/>
+        <Label/>
+        <Button Content="Next" Width="200" Click="Button_Click"/>
+    </StackPanel>
+</Window>
